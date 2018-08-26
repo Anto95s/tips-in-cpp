@@ -14,7 +14,7 @@ void display(vector<double> num) //stampa del vettore tramite indice in for
 void display_iterators(vector<double> num) //stampa del vettore tramite iteratore
 {
     vector<double>::iterator ite = num.begin();
-    while(ite != num.end()) //end() ritorna un iteratore che punta all’elemento successivo all'ultimo
+    while(ite != num.end()) //end() ritorna un iteratore che punta allâ€™elemento successivo all'ultimo
     {
         cout<<*ite<<" ";
         ite++;
